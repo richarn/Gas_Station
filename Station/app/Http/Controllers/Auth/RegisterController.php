@@ -39,6 +39,10 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
+    public function loginUsername(){
+        return property_exists($this, 'username') ? $this->username : 'name';
+    }
+
     /**
      * Get a validator for an incoming registration request.
      *
