@@ -13,11 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                   <script type="text/javascript">
-                        alert('¡Ha Ingresado correctamente!');    
-                        window.location.href = "contenido";
-                    </script>
                 </div>
             </div>
         </div>
